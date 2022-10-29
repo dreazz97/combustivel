@@ -1,0 +1,53 @@
+body {
+    font-family: Roboto;
+}
+
+#title {
+    position: absolute;
+    left: 27%;
+    top: 10%;
+}
+
+#layout {
+    display: flex;
+}
+
+
+#layout-content {
+    display: flex;
+}
+
+#main-layout {
+    position: absolute;
+    align-content: center;
+    left: 5%;
+    top: 30%;
+    width: 90%;
+
+}
+.static_title {
+    margin-left: 22%;
+    align-content: center;
+}
+
+#posto_nome {
+    margin-left: 8%;
+    list-style-type: none;
+    line-height: 3em;
+}
+
+#posto_preço {
+    margin-left: 8.5%;
+    list-style-type: none;
+    line-height: 3em;
+}
+
+#posto_localização {
+    margin-left: 19.8%;
+    list-style-type: none;
+    line-height: 3em;
+}
+
+.topics-div:hover {
+    cursor: pointer;
+}
