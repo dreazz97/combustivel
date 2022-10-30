@@ -124,19 +124,29 @@ body {
     line-height: 3em;
 }
 
-@media only screen and (min-width: 1873px) {
+@media only screen and (max-width: 1873px) {
     #posto_nome {
         margin-left: 2%;
     }
-  }
 
-  @media only screen and (min-width: 1740px) {
     #posto_preço {
-        margin-left: 6.5%;
+        position: relative;
+        left: 3.5%;
+    }
+    #tipo_combustivel {
+        position: relative;
+        left: 3.5%;
     }
     
     #posto_localização {
-        margin-left: 15%;
+        position: relative;
+        left: 4%;
+    }
+  }
+
+  @media only screen and (max-width: 1740px) {
+    #posto_preço {
+        margin-left: 6.5%;
     }
 
     #fuel_buttons {
@@ -148,18 +158,13 @@ body {
     #title {
         left: 33%;
     }
-
-    .topics-div {
-        padding-right: 5px;
-    }
   }
-  @media only screen and (min-width: 1710px) {
+  @media only screen and (max-width: 1710px) {
     #posto_preço {
         margin-left: 6%;
     }
   }
-
-  @media only screen and (min-width: 360px) {
+  @media only screen and (max-width: 360px) {
     #title {
         position: absolute;
         left: 0%;
@@ -170,13 +175,13 @@ body {
 
     #layout {
         position: relative;
-        left: -18%;
+        margin-left: -12%;
         font-size: 0.7em;
     }
 
     #layout-content {
         position: relative;
-        left: -20%;
+        left: -30%;
         font-size: 0.6em;
         margin-left: 0;
         margin-right: 0;
@@ -184,32 +189,34 @@ body {
         width: 400px;
     }
     #posto_nome {
-        margin-left: 3%;
+        margin-left: -4%;
     }
     
     #posto_preço {
         position: relative;
-        left: -5%;
+        left: 0%;
+        margin-left: 0.5%;
         width: 33px;
         padding-left: 0%;
         padding-right: 0%;
     }
     #tipo_combustivel {
         position: relative;
-        left: -11%;
+        left: 0%;
+        margin-left: 12%;
         padding-left: 0%;
         padding-right: 0%;
     }
     
     #posto_localização {
         position: relative;
-        left: -18%;
+        margin-left: 25px;
         padding-left: 0%;
         padding-right: 0%;
     }
     #gasoleo_aditivado {
         position: relative;
-        left: -30%;
+        left: -39%;
         margin-right: 0%;
         width: 130px;
     }
@@ -223,7 +230,7 @@ body {
         width: 40px;
     }
     .li-type {
-        width: 90px;
+        width: 100px;
     }
     .li-name {
         width: 120px;
@@ -262,39 +269,116 @@ body {
         width: 30px;
         margin-left: 20px;
     }
-    
   }
-  @media only screen and (min-width: 412px) {
-    #layout {
-        position: relative;
-        left: -14%;
+
+  @media only screen and (max-width: 412px) {
+    #title {
+        position: absolute;
+        left: 0%;
+        text-align: center;
+        top: 17%;
+        font-size: 1.3em;
     }
 
+    #layout {
+        position: relative;
+        margin-left: -28%;
+        font-size: 0.7em;
+    }
+
+    #layout-content {
+        position: relative;
+        left: -30%;
+        font-size: 0.6em;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 400px;
+    }
     #posto_nome {
-        margin-left: 6%;
+        margin-left: 0%;
+        position: relative;
+        left: 9%;
     }
     
     #posto_preço {
         position: relative;
-        left: 0%;
+        left: 6%;
+        margin-left: 0.5%;
+        width: 33px;
+        padding-left: 0%;
+        padding-right: 0%;
     }
     #tipo_combustivel {
         position: relative;
-        left: -4%;
+        left: 8%;
+        margin-left: 12%;
+        padding-left: 0%;
+        padding-right: 0%;
     }
     
     #posto_localização {
         position: relative;
-        left: -10%;
+        left: 5%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #gasoleo_aditivado {
+        position: relative;
+        left: -39%;
+        margin-right: 0%;
+        width: 130px;
+    }
+    
+    #gasoleo_simples {
+        position: relative;
+        left: -18%;
+        width: 130px;
+    }
+    .li-price {
+        width: 40px;
+    }
+    .li-type {
+        width: 90px;
+    }
+    .li-name {
+        width: 120px;
+    }
+
+    .static_preço {
+        margin-left: 15%;
+    }
+
+    .static_fuel {
+        margin-left: 13%;
+    }
+
+    .static_location {
+        margin-left: 7%;
     }
 
     #icons {
+        display: flex;
         position: absolute;
-        right: -25%;
+        top: 3%;
+        margin-left: 20%;
+        right: -26%;
+        width: 200px;
     }
-
- }
-
+    
+    #linkedin #linkedin-icon {
+        width: 30px;
+    }
+    
+    #linkedin #linkedin-icon-after {
+            width: 30px;
+    }
+    
+    #github #github-icon {
+        width: 30px;
+        margin-left: 20px;
+    }
+  }
 .topics-div:hover {
     cursor: pointer;
     color: rgb(174, 251, 91);
