@@ -124,6 +124,37 @@ body {
     line-height: 3em;
 }
 
+@media only screen and (min-width: 1873px) {
+    #posto_nome {
+        margin-left: 2%;
+    }
+  }
+
+  @media only screen and (min-width: 1740px) {
+    #posto_preço {
+        margin-left: 6.5%;
+    }
+    
+    #posto_localização {
+        margin-left: 15%;
+    }
+
+    #fuel_buttons {
+        left: 42%;
+    }
+    #main-layout {
+        left: 10%;
+    }
+    #title {
+        left: 33%;
+    }
+  }
+  @media only screen and (min-width: 1710px) {
+    #posto_preço {
+        margin-left: 6%;
+    }
+  }
+
 .topics-div:hover {
     cursor: pointer;
     color: rgb(174, 251, 91);
