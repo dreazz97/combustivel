@@ -95,7 +95,6 @@ body {
     left: 5%;
     top: 30%;
     width: 90%;
-
 }
 .static_title {
     margin-left: 15%;
@@ -134,10 +133,6 @@ body {
     #posto_preço {
         margin-left: 6.5%;
     }
-    
-    #posto_localização {
-        margin-left: 15%;
-    }
 
     #fuel_buttons {
         left: 42%;
@@ -154,6 +149,141 @@ body {
         margin-left: 6%;
     }
   }
+  @media only screen and (min-width: 360px) {
+    #title {
+        position: absolute;
+        left: 0%;
+        text-align: center;
+        top: 17%;
+        font-size: 1.4em;
+    }
+
+    #layout {
+        position: relative;
+        left: -18%;
+        font-size: 0.7em;
+    }
+
+    #layout-content {
+        position: relative;
+        left: -20%;
+        font-size: 0.6em;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 400px;
+    }
+    #posto_nome {
+        margin-left: 3%;
+    }
+    
+    #posto_preço {
+        position: relative;
+        left: -5%;
+        width: 33px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #tipo_combustivel {
+        position: relative;
+        left: -11%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    #posto_localização {
+        position: relative;
+        left: -15%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #gasolina_simples {
+        position: relative;
+        left: -30%;
+        margin-right: 0%;
+        width: 130px;
+    }
+    
+    #gasoleo_simples {
+        position: relative;
+        left: -18%;
+        width: 130px;
+    }
+    .li-price {
+        width: 40px;
+    }
+    .li-type {
+        width: 73px;
+    }
+    .li-name {
+        width: 120px;
+    }
+
+    .static_preço {
+        margin-left: 21.4%;
+    }
+
+    .static_fuel {
+        margin-left: 11%;
+    }
+
+    .static_location {
+        margin-left: 13%;
+    }
+
+    #icons {
+        display: flex;
+        position: absolute;
+        top: 3%;
+        margin-left: 20%;
+        right: -30%;
+        width: 200px;
+    }
+    
+    #linkedin #linkedin-icon {
+        width: 30px;
+    }
+    
+    #linkedin #linkedin-icon-after {
+            width: 30px;
+    }
+    
+    #github #github-icon {
+        width: 30px;
+        margin-left: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 412px) {
+    #layout {
+        position: relative;
+        left: -14%;
+    }
+
+    #posto_nome {
+        margin-left: 6%;
+    }
+    
+    #posto_preço {
+        position: relative;
+        left: 0%;
+    }
+    #tipo_combustivel {
+        position: relative;
+        left: -4%;
+    }
+    
+    #posto_localização {
+        position: relative;
+        left: -7%;
+    }
+
+    #icons {
+        position: absolute;
+        right: -25%;
+    }
+
+ }
 
 .topics-div:hover {
     cursor: pointer;

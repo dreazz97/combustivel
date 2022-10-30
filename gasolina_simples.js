@@ -51,34 +51,37 @@ var click_linkedin = document.querySelector('#linkedin-icon-after');
 getFuelData();
 
 function seixal_fuel_title_list () {
-var seixal_fuel_data_title_list_element = [];
-for (let i = 0; i < seixal_fuel_title_data.length; i++) {
-seixal_fuel_data_title_list_element[i] = document.createElement("li");
-seixal_fuel_data_title_list_element[i].textContent = seixal_fuel_title_data[i];
-var unordered_list_element_posto_name = document.querySelector("#posto_nome");
-unordered_list_element_posto_name.appendChild(seixal_fuel_data_title_list_element[i]);
-  }
-}
-
-function seixal_fuel_price_list () {
-    var seixal_fuel_data_price_list_element = [];
-    for (let i = 0; i < seixal_fuel_price_data.length; i++) {
-    seixal_fuel_data_price_list_element[i] = document.createElement("li");
-    seixal_fuel_data_price_list_element[i].textContent = seixal_fuel_price_data[i];
-    var unordered_list_element_posto_preco = document.querySelector("#posto_preço");
-    unordered_list_element_posto_preco.appendChild(seixal_fuel_data_price_list_element[i]);
-      }
+  var seixal_fuel_data_title_list_element = [];
+  for (let i = 0; i < seixal_fuel_title_data.length; i++) {
+  seixal_fuel_data_title_list_element[i] = document.createElement("li");
+  seixal_fuel_data_title_list_element[i].classList.add('li-name');
+  seixal_fuel_data_title_list_element[i].textContent = seixal_fuel_title_data[i];
+  var unordered_list_element_posto_name = document.querySelector("#posto_nome");
+  unordered_list_element_posto_name.appendChild(seixal_fuel_data_title_list_element[i]);
     }
-
-function seixal_fuel_type_list () {
-      var seixal_fuel_data_type_list_element = [];
-      for (let i = 0; i < seixal_fuel_type_data.length; i++) {
-      seixal_fuel_data_type_list_element[i] = document.createElement("li");
-      seixal_fuel_data_type_list_element[i].textContent = seixal_fuel_type_data[i];
-      var unordered_list_element_fuel_type = document.querySelector("#tipo_combustivel");
-      unordered_list_element_fuel_type.appendChild(seixal_fuel_data_type_list_element[i]);
+  }
+  
+  function seixal_fuel_price_list () {
+      var seixal_fuel_data_price_list_element = [];
+      for (let i = 0; i < seixal_fuel_price_data.length; i++) {
+      seixal_fuel_data_price_list_element[i] = document.createElement("li");
+      seixal_fuel_data_price_list_element[i].classList.add('li-price');
+      seixal_fuel_data_price_list_element[i].textContent = seixal_fuel_price_data[i];
+      var unordered_list_element_posto_preco = document.querySelector("#posto_preço");
+      unordered_list_element_posto_preco.appendChild(seixal_fuel_data_price_list_element[i]);
         }
       }
+  
+  function seixal_fuel_type_list () {
+        var seixal_fuel_data_type_list_element = [];
+        for (let i = 0; i < seixal_fuel_type_data.length; i++) {
+        seixal_fuel_data_type_list_element[i] = document.createElement("li");
+        seixal_fuel_data_type_list_element[i].classList.add('li-type');
+        seixal_fuel_data_type_list_element[i].textContent = seixal_fuel_type_data[i];
+        var unordered_list_element_fuel_type = document.querySelector("#tipo_combustivel");
+        unordered_list_element_fuel_type.appendChild(seixal_fuel_data_type_list_element[i]);
+          }
+        }
 
 function getPostoLocation () {
     var location_element = [];
