@@ -7,7 +7,7 @@ let item_clicker = [];
 
 
   async function getFuelData() {
-    var seixal_fuel_response = await fetch('https://precoscombustiveis.dgeg.gov.pt/api/PrecoComb/PesquisarPostos?idsTiposComb=2105&idMarca=&idTipoPosto=&idDistrito=&idsMunicipios=229&qtdPorPagina=50&pagina=1');
+    var seixal_fuel_response = await fetch('https://precoscombustiveis.dgeg.gov.pt/api/PrecoComb/PesquisarPostos?idsTiposComb=3201&idMarca=&idTipoPosto=&idDistrito=&idsMunicipios=229&qtdPorPagina=50&pagina=1');
 
     const seixal_fuel_data = await seixal_fuel_response.json();
     console.log(seixal_fuel_data);
@@ -27,16 +27,16 @@ let item_clicker = [];
 
 }
 
-
-var click_gasolina_simples = document.querySelector('#gasolina_simples');
-click_gasolina_simples.addEventListener("click", function () {
-  location.href = "gasolina_simples.html";
-  })
+var click_gasoleo_aditivado = document.querySelector('#gasoleo_aditivado');
+click_gasoleo_aditivado.addEventListener("click", function () {
+location.href = "index.html";
+})
 
 var click_gasoleo_simples = document.querySelector('#gasoleo_simples');
 click_gasoleo_simples.addEventListener("click", function () {
 location.href = "gasoleo_simples.html";
-  })
+})
+
 
 var click_github = document.querySelector('#github-icon');
 click_github.addEventListener("click", function () {

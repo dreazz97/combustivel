@@ -31,7 +31,7 @@ body {
     background-color: rgb(219, 248, 189);
 }
 
-#gasoleo_simples {
+#gasoleo_aditivado {
     width: 200px;
     font-family: roboto;
     background-color: transparent;
@@ -39,7 +39,7 @@ body {
     border-width: 0.1px;
 }
 
-#gasoleo_simples:hover {
+#gasoleo_aditivado:hover {
     cursor: pointer;
     background-color: rgb(219, 248, 189);
 }

@@ -17,7 +17,7 @@ body {
     height: 40px;
 }
 
-#gasolina_simples {
+#gasoleo_aditivado {
     margin-right: 30%;
     width: 200px;
     font-family: roboto;
@@ -26,7 +26,7 @@ body {
     border-width: 0.1px;
 }
 
-#gasolina_simples:hover {
+#gasoleo_aditivado:hover {
     cursor: pointer;
     background-color: rgb(219, 248, 189);
 }
@@ -108,18 +108,18 @@ body {
 }
 
 #posto_preço {
-    margin-left: 2.5%;
+    margin-left: 2.2%;
     list-style-type: none;
     line-height: 3em;
 }
 #tipo_combustivel {
-    margin-left: 13.8%;
+    margin-left: 12.8%;
     list-style-type: none;
     line-height: 3em;
 }
 
 #posto_localização {
-    margin-left: 14.6%;
+    margin-left: 14.2%;
     list-style-type: none;
     line-height: 3em;
 }
