@@ -8,6 +8,43 @@ body {
     top: 10%;
 }
 
+
+#icons {
+    display: flex;
+    position: absolute;
+    top: 3%;
+    margin-left: 20%;
+    right: 1%;
+    width: 200px;
+}
+
+#linkedin #linkedin-icon {
+    width: 40px;
+}
+
+#linkedin #linkedin-icon-after {
+        display: none;
+        position: absolute;
+        width: 40px;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+#linkedin:hover #linkedin-icon-after {
+    display: inline;
+    cursor: pointer;
+}
+
+#github #github-icon {
+    width: 40px;
+    margin-left: 50px;
+}
+
+#github-icon:hover {
+    cursor: pointer;
+}
+
 #layout {
     display: flex;
 }
@@ -26,24 +63,28 @@ body {
 
 }
 .static_title {
-    margin-left: 22%;
+    margin-left: 15%;
     align-content: center;
 }
 
 #posto_nome {
-    margin-left: 8%;
     list-style-type: none;
     line-height: 3em;
 }
 
 #posto_preço {
-    margin-left: 8.5%;
+    margin-left: 2.5%;
+    list-style-type: none;
+    line-height: 3em;
+}
+#tipo_combustivel {
+    margin-left: 13.8%;
     list-style-type: none;
     line-height: 3em;
 }
 
 #posto_localização {
-    margin-left: 19.8%;
+    margin-left: 14.6%;
     list-style-type: none;
     line-height: 3em;
 }
