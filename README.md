@@ -1,2 +1,2 @@
 # combustivel
-App sobre o preço do combustível mais barato em Seixal
+App sobre o preço do combustível mais barato no Seixal
