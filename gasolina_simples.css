@@ -126,4 +126,5 @@ body {
 
 .topics-div:hover {
     cursor: pointer;
+    color: rgb(174, 251, 91);
 }
