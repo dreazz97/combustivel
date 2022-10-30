@@ -175,7 +175,7 @@ body {
 
     #layout {
         position: relative;
-        margin-left: -12%;
+        margin-left: -13%;
         font-size: 0.7em;
     }
 
@@ -189,7 +189,7 @@ body {
         width: 400px;
     }
     #posto_nome {
-        margin-left: -4%;
+        margin-left: -2%;
     }
     
     #posto_preço {
@@ -202,7 +202,7 @@ body {
     }
     #tipo_combustivel {
         position: relative;
-        left: 0%;
+        left: -0%;
         margin-left: 12%;
         padding-left: 0%;
         padding-right: 0%;
@@ -210,11 +210,11 @@ body {
     
     #posto_localização {
         position: relative;
-        margin-left: 25px;
+        margin-left: 45px;
         padding-left: 0%;
         padding-right: 0%;
     }
-    #gasoleo_aditivado {
+    #gasolina_simples {
         position: relative;
         left: -39%;
         margin-right: 0%;
@@ -230,14 +230,25 @@ body {
         width: 40px;
     }
     .li-type {
-        width: 100px;
+        width: 73px;
+        position: relative;
+        left: -28%;
+    }
+
+    .topics-div {
+        position: relative;
+        left: -75%;
     }
     .li-name {
         width: 120px;
+        position: relative;
+        left: -8%;
     }
 
     .static_preço {
         margin-left: 21.4%;
+        position: relative;
+        left: 4%;
     }
 
     .static_fuel {
@@ -246,6 +257,8 @@ body {
 
     .static_location {
         margin-left: 13%;
+        position: relative;
+        left: -1%;
     }
 
     #icons {

@@ -188,7 +188,7 @@ body {
         width: 400px;
     }
     #posto_nome {
-        margin-left: -4%;
+        margin-left: -2%;
     }
     
     #posto_preço {
@@ -230,13 +230,24 @@ body {
     }
     .li-type {
         width: 73px;
+        position: relative;
+        left: -28%;
+    }
+
+    .topics-div {
+        position: relative;
+        left: -75%;
     }
     .li-name {
         width: 120px;
+        position: relative;
+        left: -8%;
     }
 
     .static_preço {
         margin-left: 21.4%;
+        position: relative;
+        left: 4%;
     }
 
     .static_fuel {
@@ -245,6 +256,8 @@ body {
 
     .static_location {
         margin-left: 13%;
+        position: relative;
+        left: -1%;
     }
 
     #icons {
