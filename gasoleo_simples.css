@@ -145,22 +145,47 @@ body {
 }
 
 @media only screen and (max-width: 1873px) {
+
+    #layout {
+        position: relative;
+        left: 5%;
+    }
+    #gasolina_simples {
+        position: relative;
+        left: 50%;
+
+    }
+
+    #gasoleo_aditivado {
+        position: relative;
+        left: 60%;
+    }
+
+
+    #title {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+    }
+
     #posto_nome {
         margin-left: 2%;
+        position: relative;
+        left: 13%;
     }
 
     #posto_preço {
         position: relative;
-        left: 3.5%;
+        left: 19.5%;
     }
     #tipo_combustivel {
         position: relative;
-        left: 3.5%;
+        left: 20%;
     }
     
     #posto_localização {
         position: relative;
-        left: 4%;
+        left: 20.5%;
     }
   }
 
