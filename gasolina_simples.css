@@ -4,7 +4,7 @@ body {
 
 #title {
     position: absolute;
-    left: 27%;
+    left: 10%;
     top: 10%;
 }
 
@@ -12,7 +12,7 @@ body {
     display: flex;
     position: absolute;
     bottom: 8%;
-    left: 38%;
+    left: 30%;
     width: 360px;
     height: 40px;
 }
@@ -81,7 +81,27 @@ body {
 }
 
 #layout {
+    position: relative;
+    left: -5%;
     display: flex;
+}
+
+.li-price {
+    position: relative;
+    left: -360%;
+}
+.li-type {
+    position: relative;
+    left: -140%;
+}
+
+.topics-div {
+    position: relative;
+    left: -255%;
+}
+.li-name {
+    position: relative;
+    left: -30%;
 }
 
 
@@ -95,9 +115,9 @@ body {
     left: 5%;
     top: 30%;
     width: 90%;
-
 }
 .static_title {
+    position: relative;
     margin-left: 15%;
     align-content: center;
 }
@@ -108,18 +128,18 @@ body {
 }
 
 #posto_preço {
-    margin-left: 2.2%;
+    margin-left: 2.5%;
     list-style-type: none;
     line-height: 3em;
 }
 #tipo_combustivel {
-    margin-left: 12.8%;
+    margin-left: 13.8%;
     list-style-type: none;
     line-height: 3em;
 }
 
 #posto_localização {
-    margin-left: 14.2%;
+    margin-left: 14.6%;
     list-style-type: none;
     line-height: 3em;
 }
