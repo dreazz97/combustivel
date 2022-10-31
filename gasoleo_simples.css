@@ -195,7 +195,8 @@ body {
 
     #layout {
         position: relative;
-        margin-left: -13%;
+        left: 1%;
+        margin-left: 0%;
         font-size: 0.7em;
     }
 
@@ -215,22 +216,22 @@ body {
     #posto_preço {
         position: relative;
         left: 0%;
-        margin-left: 0.5%;
+        margin-left: 0.2%;
         width: 33px;
         padding-left: 0%;
         padding-right: 0%;
     }
     #tipo_combustivel {
         position: relative;
-        left: -0%;
-        margin-left: 12%;
+        left: 0;
+        margin-left: 20px;
         padding-left: 0%;
         padding-right: 0%;
     }
     
     #posto_localização {
         position: relative;
-        margin-left: 45px;
+        margin-left: 30px;
         padding-left: 0%;
         padding-right: 0%;
     }
@@ -248,11 +249,14 @@ body {
     }
     .li-price {
         width: 40px;
+        position: relative;
+        left: -40%;
     }
     .li-type {
         width: 73px;
         position: relative;
-        left: -28%;
+        margin-left: -25px;
+        left: -20%;
     }
 
     .topics-div {
@@ -266,9 +270,9 @@ body {
     }
 
     .static_preço {
-        margin-left: 21.4%;
+        margin-left: 0%;
         position: relative;
-        left: 4%;
+        left: 0%;
     }
 
     .static_fuel {
@@ -303,7 +307,7 @@ body {
         margin-left: 20px;
     }
   }
-
+  
   @media only screen and (max-width: 412px) {
     #title {
         position: absolute;
@@ -316,6 +320,7 @@ body {
     #layout {
         position: relative;
         margin-left: -28%;
+        left: 1%;
         font-size: 0.7em;
     }
 
@@ -370,12 +375,23 @@ body {
     }
     .li-price {
         width: 40px;
+        position: relative;
+        left: 16%;
     }
     .li-type {
+        position: relative;
+        left: 10%;
         width: 73px;
     }
     .li-name {
         width: 120px;
+        position: relative;
+        left: 1%;
+    }
+
+    .topics-div {
+        position: relative;
+        left: 6%;
     }
 
     .static_preço {
