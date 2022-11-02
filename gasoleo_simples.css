@@ -32,10 +32,6 @@ body {
     margin-top: 110px;
 }
 
-.data-info {
-    margin-top: 50px;
-}
-
 .li-title {
     font-weight: 800;
     font-size: 1.2em;
@@ -216,19 +212,6 @@ ul {
     
 }
 
-@media only screen and (max-width: 390px) {
-
-    #gasolina_simples {
-        width: 80px;
-        font-size: 12px  
-    }
-
-    #gasoleo_simples {
-        width: 80px;
-        font-size: 12px  
-    }
-}
-
 @media only screen and (max-width: 550px) {
 
     .title {
@@ -285,20 +268,20 @@ ul {
     }
 }
 
-@media only screen and (max-width: 1399px) {
-    .data-info {
-        font-size: 20px  
-    }
-}
+@media only screen and (max-width: 390px) {
 
-@media only screen and (max-width: 859px) {
-    .data-info {
-        font-size: 17px  
+    #gasolina_simples {
+        width: 80px;
+        font-size: 12px  
     }
-}
 
-@media only screen and (max-width: 533px) {
-    .data-info {
-        font-size: 14px  
+    #gasoleo_aditivado {
+        width: 80px;
+        font-size: 12px  
     }
+    .li-type {
+        position: relative;
+        left: -12%;
+    }
+
 }
