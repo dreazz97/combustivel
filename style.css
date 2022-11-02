@@ -110,14 +110,14 @@ ul {
     left: -5%
 }
 
-#gasoleo_aditivado {
+#gasolina_simples {
     margin-right: 70px;
     background-color: transparent;
     border-radius: 10px;
     border-width: 0.1px;
 }
 
-#gasoleo_aditivado:hover {
+#gasolina_simples:hover {
     cursor: pointer;
     background-color: rgb(219, 248, 189);
 }

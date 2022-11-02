@@ -38,12 +38,12 @@ click_gasoleo_simples.addEventListener("click", function () {
 location.href = "gasoleo_simples.html";
   })
 
-var click_github = document.querySelector('#github-icon');
+var click_github = document.querySelector('.github');
 click_github.addEventListener("click", function () {
   location.href = "https://github.com/dreazz97";
   })
 
-var click_linkedin = document.querySelector('#linkedin-icon-after');
+var click_linkedin = document.querySelector('.linkedin');
   click_linkedin.addEventListener("click", function () {
     location.href = "https://pt.linkedin.com/in/iuri-peniche-29337a183";
     })
