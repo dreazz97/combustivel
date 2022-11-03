@@ -131,7 +131,7 @@ ul {
 
 .t4 {
     position: relative;
-    top: 210px;
+    top: 100px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -145,7 +145,7 @@ ul {
 
     .t4 {
         position: relative;
-        top: 100px;
+        top: 50px;
     }
 
     .li-name {
@@ -239,7 +239,7 @@ ul {
 
     .t4 {
         position: relative;
-        top: 30px;
+        top: 20px;
     }
 
     .github {
