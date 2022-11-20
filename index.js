@@ -53,7 +53,7 @@ click_alterar_botao.addEventListener("click", function () {
         url += `?municipio=${municipio}`
         window.location.href = url;
     }else{
-      window.history.pushState({}, document.title, "/" + `?municipio=${municipio}`);
+      window.history.pushState({}, document.title, "/combustivel/index.html" + `?municipio=${municipio}`);
       location.reload();
     }
   })
