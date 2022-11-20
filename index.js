@@ -6,8 +6,24 @@ let location_lon = [];
 let item_clicker = [];
 
 
+var municipio = 229;
+//Seixal = 229
+//Almada = 222
+//Sesimbra = 230
+
   async function getFuelData() {
-    var seixal_fuel_response = await fetch('https://precoscombustiveis.dgeg.gov.pt/api/PrecoComb/PesquisarPostos?idsTiposComb=2105&idMarca=&idTipoPosto=&idDistrito=&idsMunicipios=229&qtdPorPagina=50&pagina=1');
+    const myKeysValues = window.location.search;
+    if (myKeysValues == '?municipio=222'){
+      municipio = 222;
+      document.querySelector(".title").innerHTML="Preço Gasóleo Aditivado Mais Barato de Almada.";
+    } else if (myKeysValues == '?municipio=229') {
+      municipio = 229;
+      document.querySelector(".title").innerHTML="Preço Gasóleo Aditivado Mais Barato do Seixal.";
+    } else if (myKeysValues == '?municipio=230') {
+    municipio = 230;
+    document.querySelector(".title").innerHTML="Preço Gasóleo Aditivado Mais Barato de Sesimbra.";
+    }
+    var seixal_fuel_response = await fetch(`https://precoscombustiveis.dgeg.gov.pt/api/PrecoComb/PesquisarPostos?idsTiposComb=2105&idMarca=&idTipoPosto=&idDistrito=&idsMunicipios=${municipio}&qtdPorPagina=50&pagina=1`);
 
     const seixal_fuel_data = await seixal_fuel_response.json();
     console.log(seixal_fuel_data);
@@ -27,6 +43,20 @@ let item_clicker = [];
 
 }
 
+var click_alterar_botao = document.querySelector('#alterar_botao');
+click_alterar_botao.addEventListener("click", function () {
+  var municipio_new = document.querySelector("#municipio").value;
+  municipio = municipio_new;
+
+  var url = window.location.href;    
+    if (url.indexOf('?') < 1){
+        url += `?municipio=${municipio}`
+        window.location.href = url;
+    }else{
+      window.history.pushState({}, document.title, "/" + `?municipio=${municipio}`);
+      location.reload();
+    }
+  })
 
 var click_gasolina_simples = document.querySelector('#gasolina_simples');
 click_gasolina_simples.addEventListener("click", function () {

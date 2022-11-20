@@ -134,6 +134,31 @@ ul {
     top: 100px;
 }
 
+.t2 {
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+#alterar_botao {
+    margin-left: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-width: 0.1px;
+}
+
+#alterar_botao:hover {
+    cursor: pointer;
+    background-color: rgb(219, 248, 189);
+}
+
+#municipio {
+    border-radius: 10px;
+    height: 27px;
+    text-align: center;
+    width: 110px;
+}
+
 @media only screen and (max-width: 991px) {
     .title {
         margin-top: 30px;
@@ -284,5 +309,8 @@ ul {
     .li-type {
         position: relative;
         left: -15%;
+    }
+    #municipio {
+        width: 80px;
     }
 }
