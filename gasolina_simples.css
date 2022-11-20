@@ -140,18 +140,6 @@ ul {
     left: 10px;
 }
 
-#alterar_botao {
-    margin-left: 10px;
-    background-color: transparent;
-    border-radius: 10px;
-    border-width: 0.1px;
-}
-
-#alterar_botao:hover {
-    cursor: pointer;
-    background-color: rgb(219, 248, 189);
-}
-
 #municipio {
     border-radius: 10px;
     height: 27px;

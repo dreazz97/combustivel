@@ -48,8 +48,8 @@ var municipio = 229;
 
 }
 
-var click_alterar_botao = document.querySelector('#alterar_botao');
-click_alterar_botao.addEventListener("click", function () {
+const selectElement = document.querySelector('#municipio');
+selectElement.addEventListener('change', function () {
   var municipio_new = document.querySelector("#municipio").value;
   municipio = municipio_new;
 
@@ -61,7 +61,7 @@ click_alterar_botao.addEventListener("click", function () {
       window.history.pushState({}, document.title, "/combustivel/index.html" + `?municipio=${municipio}`);
       location.reload();
     }
-  })
+});
 
 var click_gasolina_simples = document.querySelector('#gasolina_simples');
 click_gasolina_simples.addEventListener("click", function () {
