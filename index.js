@@ -16,12 +16,17 @@ var municipio = 229;
     if (myKeysValues == '?municipio=222'){
       municipio = 222;
       document.querySelector(".title").innerHTML="Preço Gasóleo Aditivado Mais Barato de Almada.";
+      document.getElementById("municipio").selectedIndex = 0
     } else if (myKeysValues == '?municipio=229') {
       municipio = 229;
       document.querySelector(".title").innerHTML="Preço Gasóleo Aditivado Mais Barato do Seixal.";
+      document.getElementById("municipio").selectedIndex = 1
     } else if (myKeysValues == '?municipio=230') {
     municipio = 230;
     document.querySelector(".title").innerHTML="Preço Gasóleo Aditivado Mais Barato de Sesimbra.";
+    document.getElementById("municipio").selectedIndex = 2
+    } else if(myKeysValues == '') {
+      document.getElementById("municipio").selectedIndex = 1
     }
     var seixal_fuel_response = await fetch(`https://precoscombustiveis.dgeg.gov.pt/api/PrecoComb/PesquisarPostos?idsTiposComb=2105&idMarca=&idTipoPosto=&idDistrito=&idsMunicipios=${municipio}&qtdPorPagina=50&pagina=1`);
 
