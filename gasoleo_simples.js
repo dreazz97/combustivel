@@ -58,7 +58,7 @@ selectElement.addEventListener('change', function () {
         url += `?municipio=${municipio}`
         window.location.href = url;
     }else{
-      window.history.pushState({}, document.title, "/combustivel/index.html" + `?municipio=${municipio}`);
+      window.history.pushState({}, document.title, "/combustivel/gasoleo_simples.html" + `?municipio=${municipio}`);
       location.reload();
     }
 });
