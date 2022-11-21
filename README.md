@@ -1,4 +1,4 @@
-# Prices of Fuel in my Local Area
+# Cheapest Prices of Fuel in Some Portuguese Counties.
 
 ### Web APP functionality:
 This site provides information about the top 5 cheapest petrol and diesel spots in some counties of Portugal.
