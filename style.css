@@ -2,6 +2,11 @@
     margin-top: 120px;
 }
 
+.t2 {
+    position: relative;
+    top: 25px;
+}
+
 body {
     font-style: Roboto;
 }
@@ -37,73 +42,24 @@ body {
     font-size: 1.2em;
 }
 
-.li-name {
-    position: relative;
-    left: 13%;
-}
-
-.li-price {
-    position: relative;
-    left: -10%;
-}
-
-.li-type {
-    position: relative;
-    left: -15%;
-}
-
-.topics-div {
-    position: relative;
-    left: -12%;
-}
 
 .topics-div:hover {
     cursor: pointer;
     color: rgb(174, 251, 91);
 }
 
-.n {
-    position: relative;
-    left: 50%;
-}
-
-.p {
-    position: relative;
-    left: -10px;
-}
-
 .t {
     position: relative;
-    left: -70px;
+    left: -72px;
 }
 
 .g {
     position: relative;
-    left: -40px;
-}
-
-#posto-nome {
-    position: relative;
-    left: 5%;
+    left: -25px;
 }
 
 ul {
     list-style: none;
-}
-
-.ul-price {
-    position: relative;
-    left: 2%;
-}
-
-#tipo_combustivel {
-    position: relative;
-    left: 2%;
-}
-
-#posto_localização {
-    position: relative;
-    left: -5%
 }
 
 #gasolina_simples {
@@ -134,12 +90,6 @@ ul {
     top: 100px;
 }
 
-.t2 {
-    position: relative;
-    top: 30px;
-    left: 10px;
-}
-
 #municipio {
     border-radius: 10px;
     height: 27px;
@@ -148,136 +98,17 @@ ul {
 }
 
 @media only screen and (max-width: 991px) {
-    .title {
-        margin-top: 30px;
-    }
-
-    .t3 {
-        margin-top: 50px;
-    }
-
-    .t4 {
-        position: relative;
-        top: 50px;
-    }
-
-    .li-name {
-        position: relative;
-        left: -16%;
-    }
-    
-    .li-price {
-        position: relative;
-        left: -0.8%;
-    }
-    
-    .li-type {
-        position: relative;
-        left: -4%;
-    }
-    
-    .topics-div {
-        position: relative;
-        left: -2%;
-    }
-
-
-    #posto_nome {
-        position: relative;
-        left: 44%;
-    }
-    
-    #posto_preço {
-        position: relative;
-        left: 44%;
-    }
-    
-    #tipo_combustivel {
-        position: relative;
-        left: 44%;
-    }
-    
-    #posto_localização {
-        position: relative;
-        left: 44%;
-    }
-
-    .n {
-        position: relative;
-        left: -10px;
-    }
-    
-    .p {
-        position: relative;
-        left: -10px;
-    }
-    
-    .t {
-        position: relative;
-        left: -70px;
-    }
-    
-    .g {
-        position: relative;
-        left: -42px;
-    }
-
-    
-}
-
-@media only screen and (max-width: 550px) {
-
-    .title {
-        margin-top: 20px;
-    }
-
-    .li-name {
-        position: relative;
-        left: -25%;
-    }
-
-    .li-type {
-        position: relative;
-        left: -8%;
-    }
-
-    .topics-div {
-        position: relative;
-        left: -5%;
-    }
-
     .t3 {
         margin-top: 10px;
     }
 
     .t4 {
         position: relative;
-        top: 20px;
+        top: 10px;
     }
 
-    .github {
-        margin-right: 40px;
-    }
-
-
-    #posto_nome {
-        position: relative;
-        left: 40%;
-    }
-    
-    #posto_preço {
-        position: relative;
-        left: 40%;
-    }
-    
-    #tipo_combustivel {
-        position: relative;
-        left: 40%;
-    }
-    
-    #posto_localização {
-        position: relative;
-        left: 40%;
+    .title {
+        margin-top: 60px;
     }
 }
 
@@ -292,14 +123,4 @@ ul {
         width: 80px;
         font-size: 12px  
     }
-
-    .li-type {
-        position: relative;
-        left: -12%;
-    }
-
-    #municipio {
-        width: 80px;
-    }
-
 }
